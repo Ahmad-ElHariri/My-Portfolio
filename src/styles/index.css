@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+/* Subtle, consistent section anchor offset for sticky nav */
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Thin animated border for project cards (no rotating shapes) */
+.glow-card {
+  border: 1px solid rgba(148, 163, 184, 0.7); /* slate-400-ish */
+  border-radius: 1.25rem;
+  animation: borderShift 1.5s linear infinite;
+}
+
+.glow-card:hover {
+  box-shadow: 0 14px 40px rgba(16, 24, 40, 0.10);
+}
+
+@keyframes borderShift {
+  0% { border-color: rgba(239, 68, 68, 0.85); }
+  33% { border-color: rgba(59, 130, 246, 0.85); }
+  66% { border-color: rgba(168, 85, 247, 0.85); }
+  100% { border-color: rgba(239, 68, 68, 0.85); }
+}
+
+/* Simple multi-line clamp helper */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .glow-card { animation: none; }
+}
