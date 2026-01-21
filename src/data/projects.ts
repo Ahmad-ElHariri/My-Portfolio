@@ -36,7 +36,7 @@ export const projects: Project[] = [
     summary: 'Transforms messy consulting inputs into structured, slide-ready narratives and layouts for fast deck creation.',
     tags: ['GenAI', 'Structured Output', 'Automation'],
     imageUrl: 'https://github.com/Ahmad-ElHariri/My-Portfolio/blob/main/images/consulting-slide.png?raw=true',
-    githubUrl: 'GITHUB_URL_CONSULTING_SLIDES',
+    githubUrl: 'https://github.com/Ahmad-ElHariri/consulting-slides-builder',
     websiteUrl: 'WEBSITE_URL_CONSULTING_SLIDES'
   },
   {
@@ -72,8 +72,8 @@ export const projects: Project[] = [
     summary: 'AI workflow that uses internal knowledge based on official ministry laws and documents to answer peoples\' questions about ministries',
     tags: ['Microsoft Graph', 'Agents', 'Automation'],
     imageUrl: 'https://github.com/Ahmad-ElHariri/My-Portfolio/blob/main/images/wazirai.jpg?raw=true',
-    githubUrl: 'GITHUB_URL_EMAIL_AGENT',
-    websiteUrl: 'WEBSITE_URL_EMAIL_AGENT'
+    githubUrl: 'https://github.com/Ahmad-ElHariri/Ministry-Bot',
+    websiteUrl: 'https://wazir-ai.netlify.app/'
   },
   {
     title: 'Vid2Sign',
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     tags: ['Web', 'Content', 'Delivery'],
     imageUrl: 'https://github.com/Ahmad-ElHariri/My-Portfolio/blob/main/images/mytoolkit.jpg?raw=true',
     githubUrl: 'https://github.com/JadHdh689/MyToolKit',
-    websiteUrl: 'WEBSITE_URL_MYTOOLKIT'
+    websiteUrl: 'https://mytoolkit-books.vercel.app/'
   },
   {
     title: 'Turbo Motors',
