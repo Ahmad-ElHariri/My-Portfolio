@@ -11,7 +11,7 @@ export const experiences: Experience[] = [
   {
     role: 'AI Engineering Intern',
     org: 'EDM',
-    period: '2025 — Present',
+    period: 'June 2025 — August 2025',
     location: 'Beirut, Lebanon',
     bullets: [
       'Built automation and GenAI workflows that reduce repetitive operations and improve delivery consistency.',
@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
   {
     role: 'Product Management Track',
     org: 'Amazon Industry Program',
-    period: '2025',
+    period: 'June 2025 — August 2025',
     location: 'Remote',
     bullets: [
       'Worked on product direction and structured planning for an education-focused product initiative.',
